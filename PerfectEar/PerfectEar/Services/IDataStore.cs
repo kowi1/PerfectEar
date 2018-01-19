@@ -14,5 +14,6 @@ namespace PerfectEar.Services
         Task InitializeAsync();
         Task<bool> PullLatestAsync();
         Task<bool> SyncAsync();
+        Task<bool> SyncAsync1();
     }
 }
